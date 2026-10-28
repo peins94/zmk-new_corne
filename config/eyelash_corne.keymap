@@ -105,9 +105,9 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp NON_US_BSLH  &kp LS(N1)  &kp LS(N2)    &kp LS(N3)    &kp LS(N4)  &kp LS(N5)                                &mmv MOVE_UP                     &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp MINUS
-&kp TAB          &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &kp EQUAL                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp BSLH    &kp GRAVE
-&trans           &kp BSLH    &trans        &kp C_PP      &trans      &kp LBKT    &none                         &mmv MOVE_DOWN                   &kp RBKT    &kp PLUS    &kp LBRC    &kp RBRC    &kp PIPE    &trans
+&kp NON_US_BSLH  &kp LS(N1)  &kp LS(N2)    &kp LS(N3)    &kp LS(N4)  &kp LS(N5)                                &msc SCRL_UP                     &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp MINUS
+&kp TAB          &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &kp EQUAL                 &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp BSLH    &kp GRAVE
+&trans           &kp BSLH    &trans        &kp C_PP      &trans      &kp LBKT    &none                         &msc SCRL_DOWN                   &kp RBKT    &kp PLUS    &kp LBRC    &kp RBRC    &kp PIPE    &trans
                                            &kp LGUI      &mo 3       &kp SPACE                                                                  &kp RET     &trans      &kp RALT
             >;
 
